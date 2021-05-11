@@ -1,0 +1,2 @@
+rootProject.name = "LinkCognito"
+include ':app'
