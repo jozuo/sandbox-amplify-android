@@ -3,6 +3,7 @@ package com.studio.jozu.linkcognito
 import android.app.Application
 import android.util.Log
 import com.amplifyframework.AmplifyException
+import com.amplifyframework.auth.cognito.AWSCognitoAuthPlugin
 import com.amplifyframework.core.Amplify
 
 class LinkCognitoApp: Application() {
@@ -10,6 +11,7 @@ class LinkCognitoApp: Application() {
         super.onCreate()
 
         try {
+            Amplify.addPlugin(AWSCognitoAuthPlugin())
             Amplify.configure(applicationContext)
             Log.i("MyAmplifyApp", "Initialized Amplify")
         } catch (error: AmplifyException) {
