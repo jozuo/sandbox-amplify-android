@@ -10,6 +10,11 @@
       "StackName": "amplify-linkcognito-dev-54146",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:602526353155:stack/amplify-linkcognito-dev-54146/4f2c0f00-b299-11eb-b72a-06766cd58472",
       "AmplifyAppId": "d256uqj5xh960"
+    },
+    "categories": {
+      "auth": {
+        "linkcognito22cd7b58": {}
+      }
     }
   }
 }
