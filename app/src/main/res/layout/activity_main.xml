@@ -8,6 +8,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <EditText
+            android:id="@+id/view_sign_up_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType="textEmailAddress"
+            android:hint="the code you receive via email"
+            android:layout_marginHorizontal="20dp" />
+
+        <EditText
+            android:id="@+id/view_sign_up_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType="phone"
+            android:hint="the code you receive via phone"
+            android:layout_marginHorizontal="20dp" />
+
         <Button
             android:id="@+id/view_sign_up_button"
             android:layout_width="match_parent"
@@ -17,7 +35,7 @@
             android:textAllCaps="false" />
 
         <EditText
-            android:id="@+id/view_confirm_code"
+            android:id="@+id/view_confirm_sign_up_code"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -61,5 +79,41 @@
             android:text="SingIn"
             android:textAllCaps="false" />
 
+        <EditText
+            android:id="@+id/view_confirm_sign_in_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="the code you receive via email"
+            android:layout_marginHorizontal="20dp" />
+
+        <Button
+            android:id="@+id/view_confirm_sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="8dp"
+            android:text="Confirm SingIn"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/view_google_sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Google SingIn!!"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/view_google_sign_out_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Sign out"
+            android:textAllCaps="false" />
     </LinearLayout>
 </ScrollView>
